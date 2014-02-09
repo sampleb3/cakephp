@@ -1,4 +1,7 @@
 <!-- File: /app/View/Posts/index.ctp -->
+<?php
+$this->set('title_for_layout', '記事一覧');
+?>
 
 <h1>記事一覧</h1>
 

@@ -1,4 +1,7 @@
 <!-- File: /app/View/Posts/edit.ctp -->
+<?php
+$this->set('title_for_layout', '編集');
+?>
 
 <h1>投稿の編集</h1>
 <?php

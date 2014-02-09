@@ -1,4 +1,7 @@
 <!-- File: /app/View/Posts/add.ctp -->
+<?php
+$this->set('title_for_layout', '新規投稿');
+?>
 
 <h1>新規投稿</h1>
 <?php

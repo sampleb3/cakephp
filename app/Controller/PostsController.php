@@ -59,7 +59,7 @@ class PostsController extends AppController {
     }
 
     if ($this->Post->delete($id)) {
-      $this->Session->setFlash(__('ID=%sの投稿を削除しました。', h($id)));
+      $this->Session->setFlash(__('投稿を削除しました。', h($id)));
       return $this->redirect(array('action' => 'index'));
     }
   }
